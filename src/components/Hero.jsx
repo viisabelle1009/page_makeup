@@ -86,7 +86,7 @@ export default function Hero() {
               {/* Card da Imagem com cantos arredondados e borda dourada sutil */}
               <div className="relative overflow-hidden rounded-3xl bg-white border border-[#936449]/20 shadow-xl">
                 <img
-                  src="/images/vitoria/vitoria-portrait.jpg"
+                  src={import.meta.env.BASE_URL + "images/vitoria/vitoria-portrait.jpg"}
                   alt="Vitória Silva Maquiadora Profissional com pincéis de maquiagem"
                   className="w-full h-[460px] sm:h-[500px] object-cover object-top hover:scale-105 transition-transform duration-700"
                 />

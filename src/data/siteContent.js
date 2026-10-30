@@ -146,7 +146,7 @@ export const siteContent = {
       categoriaNome: "Noivas",
       titulo: "Noiva com Sorriso Radiante",
       descricao: "Maquiagem leve, atemporal e luminosa com acabamento aveludado e cílios que destacam o olhar com naturalidade.",
-      imagem: "/images/portfolio/noiva-sorriso.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/noiva-sorriso.jpg",
       precoSugerido: "A partir de R$ 650,00",
     },
     {
@@ -155,7 +155,7 @@ export const siteContent = {
       categoriaNome: "Noivas",
       titulo: "Chegada Triunfal da Noiva",
       descricao: "Produção impecável com véu catedral e buquê, maquiagem blindada à prova d'água para suportar todas as emoções.",
-      imagem: "/images/portfolio/noiva-carro.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/noiva-carro.jpg",
       precoSugerido: "A partir de R$ 650,00",
     },
     {
@@ -164,7 +164,7 @@ export const siteContent = {
       categoriaNome: "Noivas",
       titulo: "Noiva Clássica em Cenário Rústico",
       descricao: "Visual sofisticado com pele resistente a altas temperaturas e batom nude rosado de longa duração.",
-      imagem: "/images/portfolio/noiva-veo-luxo.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/noiva-veo-luxo.jpg",
       precoSugerido: "A partir de R$ 650,00",
     },
     {
@@ -173,7 +173,7 @@ export const siteContent = {
       categoriaNome: "Noivas",
       titulo: "Casamento Civil & Assinatura",
       descricao: "Delicadeza e sofisticação em maquiagem clean com viço saudável e elegante para cerimônias civis.",
-      imagem: "/images/portfolio/noiva-casamento-civil.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/noiva-casamento-civil.jpg",
       precoSugerido: "A partir de R$ 380,00",
     },
     {
@@ -182,7 +182,7 @@ export const siteContent = {
       categoriaNome: "Miss & Concurso",
       titulo: "Miss Beleza Negra",
       descricao: "Produção de passarela de alto impacto com pele negra ricamente iluminada, tons quentes e presença marcante de palco.",
-      imagem: "/images/portfolio/miss-beleza-negra.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/miss-beleza-negra.jpg",
       precoSugerido: "A partir de R$ 250,00",
     },
     {
@@ -191,7 +191,7 @@ export const siteContent = {
       categoriaNome: "Madrinhas & Gala",
       titulo: "Gala Noturna no Palácio",
       descricao: "Glamour supremo com vestido vermelho, olhar esfumado sofisticado e acabamento fotográfico sem reflexos.",
-      imagem: "/images/portfolio/gala-vermelho.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/gala-vermelho.jpg",
       precoSugerido: "A partir de R$ 210,00",
     },
     {
@@ -200,7 +200,7 @@ export const siteContent = {
       categoriaNome: "Madrinhas & Gala",
       titulo: "Morena Iluminada & Elegante",
       descricao: "Harmonização de tons terrosos, contorno suave e gloss espelhado valorizando a tonalidade da pele.",
-      imagem: "/images/portfolio/morena-iluminada.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/morena-iluminada.jpg",
       precoSugerido: "A partir de R$ 210,00",
     },
     {
@@ -209,7 +209,7 @@ export const siteContent = {
       categoriaNome: "Debutantes (15 Anos)",
       titulo: "Debutante Black Glam",
       descricao: "Estilo moderno e delicado para festa de 15 anos, com vestido de gala e penteado em ondas hollywoodianas.",
-      imagem: "/images/portfolio/debutante-1.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/debutante-1.jpg",
       precoSugerido: "A partir de R$ 220,00",
     },
     {
@@ -218,7 +218,7 @@ export const siteContent = {
       categoriaNome: "Debutantes (15 Anos)",
       titulo: "Debutante com Batom Vermelho Marcante",
       descricao: "Olhar suave com delineado gatinho fino combinado a um clássico lábio vermelho cereja para brilhar.",
-      imagem: "/images/portfolio/debutante-ondas.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/debutante-ondas.jpg",
       precoSugerido: "A partir de R$ 220,00",
     },
     {
@@ -227,7 +227,7 @@ export const siteContent = {
       categoriaNome: "Maquiagem Social",
       titulo: "Smokey Eyes & Esfumado Preto",
       descricao: "Técnica apurada de degradê nos olhos para eventos noturnos, formaturas e celebrações elegantes.",
-      imagem: "/images/portfolio/glam-olhos.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/glam-olhos.jpg",
       precoSugerido: "A partir de R$ 180,00",
     },
     {
@@ -236,7 +236,7 @@ export const siteContent = {
       categoriaNome: "Maquiagem Social",
       titulo: "Pele Glow & Beleza Natural",
       descricao: "Textura leve que valoriza a saúde da pele sem efeito pesado, realçando a beleza única com frescor.",
-      imagem: "/images/portfolio/social-glow.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/social-glow.jpg",
       precoSugerido: "A partir de R$ 180,00",
     },
     {
@@ -245,7 +245,7 @@ export const siteContent = {
       categoriaNome: "Maquiagem Social",
       titulo: "Cut Crease & Olhar Definido",
       descricao: "Linhas precisas e contraste harmônico de sombras para quem deseja um olhar aberto e expressivo.",
-      imagem: "/images/portfolio/cut-crease-olhar.jpg",
+      imagem: import.meta.env.BASE_URL + "images/portfolio/cut-crease-olhar.jpg",
       precoSugerido: "A partir de R$ 190,00",
     },
   ],

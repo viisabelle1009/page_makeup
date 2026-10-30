@@ -60,14 +60,14 @@ export default function BridalSpecial() {
             <div className="space-y-4">
               <div className="overflow-hidden rounded-2xl border border-white/10 shadow-lg group">
                 <img
-                  src="/images/portfolio/noiva-veo-luxo.jpg"
+                  src={import.meta.env.BASE_URL + "images/portfolio/noiva-veo-luxo.jpg"}
                   alt="Noiva com véu e buquê em maquiagem profissional"
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="overflow-hidden rounded-2xl border border-white/10 shadow-lg group">
                 <img
-                  src="/images/portfolio/noiva-casamento-civil.jpg"
+                  src={import.meta.env.BASE_URL + "images/portfolio/noiva-casamento-civil.jpg"}
                   alt="Noiva assinando casamento civil com maquiagem delicada"
                   className="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -77,14 +77,14 @@ export default function BridalSpecial() {
             <div className="space-y-4 pt-6">
               <div className="overflow-hidden rounded-2xl border border-white/10 shadow-lg group">
                 <img
-                  src="/images/portfolio/noiva-sorriso.jpg"
+                  src={import.meta.env.BASE_URL + "images/portfolio/noiva-sorriso.jpg"}
                   alt="Sorriso de noiva produzida por Vitória Silva"
                   className="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="overflow-hidden rounded-2xl border border-white/10 shadow-lg group">
                 <img
-                  src="/images/portfolio/noiva-carro.jpg"
+                  src={import.meta.env.BASE_URL + "images/portfolio/noiva-carro.jpg"}
                   alt="Chegada da noiva no carro de casamento"
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
